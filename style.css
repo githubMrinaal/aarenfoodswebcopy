@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --mainfont: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 75px;
+    background-color: #CDFADB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left h2{
+    color:#12372A;  
+    font-family: var(--mainfont);
+    font-size: 30px;
+    position: relative;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right a{
+    margin-right: 50px;
+    font-family: var(--mainfont);
+    color: #12372A;
+    cursor: pointer;
+    text-decoration: none;
+}
+.left span{
+    position: absolute;
+    top:55px;
+    left:275px;
+    font-family: var(--mainfont);
+    color: #12372A;
+    font-size: 14px;
+}
+.content{
+    height: 1800px;
+    background-color: #F6FDC3;
+}
+.grid-container{
+    display: grid;
+    height: 1800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,400px);
+    gap:20px;
+}
+.one{
+
+    margin-top: 20px;
+    background-image: url(./images/Screenshot\ 2024-02-03\ 125023.png);
+    background-size: contain;
+}
+.two{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.two p{
+    width: 300px;
+    color:#12372A;
+    font-family: var(--mainfont);
+}
+h1{
+    color:#12372A;
+    font-family: var(--mainfont);
+    font-size: 35px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.four{
+    background-image: url(./images/Screenshot\ 2024-02-03\ 125958.png);
+    background-size:70%;
+}
+.three p{
+    width: 350px;
+    font-family: var(--mainfont);
+}
+.five{
+    background-image: url(./images/Screenshot\ 2024-02-03\ 130540.png);
+    background-size: 90%;
+}
+.six{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.six p{
+    width: 400px;
+    font-family: var(--mainfont);
+}
+.eight{
+    background-image: url(./images/Screenshot\ 2024-02-03\ 131105.png);
+    background-size: contain;
+}
+.seven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seven p{
+    width: 400px;
+    font-family: var(--mainfont);
+}
